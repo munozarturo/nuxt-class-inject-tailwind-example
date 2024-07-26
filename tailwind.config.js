@@ -9,7 +9,12 @@ export default {
         "./error.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                foreground: "var(--foreground)",
+                background: "var(--background)",
+            },
+        },
     },
     plugins: [],
 };
