@@ -3,13 +3,15 @@
         class="w-full min-h-screen flex flex-col bg-background text-foreground font-mono p-12"
     >
         <h1 class="text-4xl font-bold">nuxt-class-inject + Tailwind CSS</h1>
-        <h2 class="text-2xl">
-            {{ `
-            <html class="${$classInject.classList.value}">
-                ...
-            </html>
-            ` }}
-        </h2>
+        <ClientOnly>
+            <h2 class="text-2xl">
+                {{ `
+                <html class="${$classInject.classList.value}">
+                    ...
+                </html>
+                ` }}
+            </h2>
+        </ClientOnly>
         <div class="flex flex-row gap-4">
             <button
                 v-for="theme in themes"
