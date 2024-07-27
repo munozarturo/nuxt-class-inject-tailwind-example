@@ -1,75 +1,22 @@
-# Nuxt 3 Minimal Starter
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.munozarturo.com/assets/nuxt-class-inject/logo-github-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://www.munozarturo.com/assets/nuxt-class-inject/logo-github-light.svg">
+    <img alt="nuxt-class-inject" src="https://www.munozarturo.com/assets/nuxt-class-inject/logo-github-light.svg" width="50%" height="40%">
+  </picture>
+</div>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<!-- omit from toc -->
+# nuxt-class-inject + Tailwind CSS Demo
 
-## Setup
+An example app using [`nuxt-class-inject`](https://github.com/munozarturo/nuxt-class-inject) and [`tailwindcss`](https://tailwindcss.com/) for theming in Nuxt3.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+<!-- omit from toc -->
+## Run It Locally
 
 ```bash
-# npm
+git clone https://github.com/munozarturo/nuxt-class-inject-example
+cd nuxt-class-inject-example
+npm i
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
