@@ -15,8 +15,8 @@ An example app using [`nuxt-class-inject`](https://github.com/munozarturo/nuxt-c
 ## Run It Locally
 
 ```bash
-git clone https://github.com/munozarturo/nuxt-class-inject-example
-cd nuxt-class-inject-example
+git clone https://github.com/munozarturo/nuxt-class-inject-tailwind-example
+cd nuxt-class-inject-tailwind-example
 npm i
 npm run dev
 ```
@@ -24,6 +24,6 @@ npm run dev
 <!-- omit from toc -->
 ## Links
 
-* [Live Demo + Docs](https://nuxt-class-inject.munozarturo.com)
+* [`nuxt-class-inject` Live Demo + Docs](https://nuxt-class-inject.munozarturo.com)
 * [`nuxt-class-inject` GitHub Repo](https://github.com/munozarturo/nuxt-class-inject)
-* [Nuxt3 + Tailwind CSS Example App](https://github.com/munozarturo/nuxt-class-inject-tailwind-example)
+* [`nuxt-class-inject` Pure CSS Example App](https://github.com/munozarturo/nuxt-class-inject-example)
