@@ -20,3 +20,10 @@ cd nuxt-class-inject-example
 npm i
 npm run dev
 ```
+
+<!-- omit from toc -->
+## Links
+
+* [Live Demo + Docs](https://nuxt-class-inject.munozarturo.com)
+* [`nuxt-class-inject` GitHub Repo](https://github.com/munozarturo/nuxt-class-inject)
+* [Nuxt3 + Tailwind CSS Example App](https://github.com/munozarturo/nuxt-class-inject-tailwind-example)
